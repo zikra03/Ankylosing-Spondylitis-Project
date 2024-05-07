@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as components
-SVM_model = pickle.load(open(AS_model1.sav, 'rb'))
+SVM_model = pickle.load(open('AS_model1.sav', 'rb'))
 st.set_page_config(layout="wide")
 selected= option_menu(
     menu_title=None,
