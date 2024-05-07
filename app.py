@@ -24,7 +24,7 @@ selected= option_menu(
        "nav-link-selected": {"background-color": "rgb(129, 216, 208)"},}
     )
 if selected =="Home":
-    st.video('C:/Users/Zikra/Videos/Recording 2023-04-07 170431.mp4')
+    st.video('Recording 2023-04-07 170431.mp4')
     col1,col2,col3 =st.columns(3)
     with col1:
         st.image("https://www.thegoodbody.com/wp-content/uploads/2022/08/7-5-percent-of-the-worlds-population-suffers-from-low-back-pain.png")
